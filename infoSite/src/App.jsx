@@ -7,6 +7,7 @@ import Intro from "./components/Intro";
 function App() {
   return (
     <>
+      <h3>Helo welcome to my dumy site</h3>
       <Intro />
     </>
   );
