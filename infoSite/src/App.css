@@ -1,0 +1,49 @@
+.container {
+  background: #e7a1a1;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30vw;
+  margin-top: 10px;
+}
+
+.int {
+  align-items: center;
+  text-align: center;
+  line-height: 0.1rem;
+}
+
+.title {
+  color: #451111
+}
+
+.int>p {
+  text-decoration: underline;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.buttons button {
+  background-color: red;
+  margin: 10px;
+}
+
+.sections {
+  margin-left: 30px;
+}
+
+footer {
+  background-color: rgb(85, 34, 34);
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+footer>img {
+  margin: 10px;
+}
